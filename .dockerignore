@@ -1,0 +1,15 @@
+#ignore python cache files
+__pycache__/
+*.pyc
+
+#ignore the environment files 
+.venv
+*.cfg
+*.env
+
+#ignore unneccesary files
+Sepsis classification.ipynb
+
+#ignore another file
+Data/Readme.md
+Models/scaler.joblib
