@@ -66,7 +66,7 @@ In the predict endpoint, input datails received, preprocessed, and the pre-train
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/doeabla/Last_project.git
+    git clone https://github.com/Harobed1724/API_Project.git
     cd your-repository
     ```
 
@@ -93,7 +93,7 @@ http://0.0.0.0:8000/predict
 Accepts POST requests with input data for sepsis prediction. Returns the prediction result.
 
 ### API after Dockerization
-http://localhost:8000/docs
+http://127.0.0.1:8000 
 
 ## Input Data Format
 The input data for the prediction endpoint should be sent as a POST request in the JSON format with the following structure:

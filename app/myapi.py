@@ -85,4 +85,4 @@ async def predict_sepsis_csv(file: UploadFile = File(...)):
 # Run the application
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("myapi:app", port=8080, reload=True)
+    uvicorn.run("myapi:app", port=8000, reload=True)
